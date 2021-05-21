@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="311.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.intershala.javaFX.Controller">
+    <children>
+        <Pane prefHeight="223.0" prefWidth="349.0">
+            <children>
+                <Label fx:id="labelfeild" layoutX="110.0" layoutY="47.0" prefHeight="32.0" prefWidth="144.0" text="WELCOME">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choicebox" layoutX="65.0" layoutY="87.0" prefHeight="25.0" prefWidth="189.0" />
+                <TextField fx:id="textfeild" layoutX="65.0" layoutY="123.0" prefHeight="25.0" prefWidth="189.0" />
+                <Button fx:id="buttonfeild" layoutX="117.0" layoutY="161.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Convert" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
